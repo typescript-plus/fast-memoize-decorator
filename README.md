@@ -2,6 +2,8 @@
 
 A TypeScript decorator for memoizing properties using [fast-memoize].
 
+[![CircleCI](https://circleci.com/gh/typescript-plus/fast-memoize-decorator.svg?style=svg)](https://circleci.com/gh/typescript-plus/fast-memoize-decorator)
+
 ## Install
 
 ```bash
@@ -35,3 +37,7 @@ tomorrow.when(new Date(2000, 4, 2));
 ```
 
 [fast-memoize]: https://www.npmjs.com/package/fast-memoize
+
+## LICENSE
+
+MIT
