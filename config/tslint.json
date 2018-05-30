@@ -1,0 +1,69 @@
+{
+  "defaultSeverity": "error",
+  "extends": "tslint:all",
+  "rules": {
+    "arrow-parens": [
+      true,
+      "ban-single-arg-parens"
+    ],
+    "comment-format": false,
+    "completed-docs": false,
+    "interface-name": [
+      true,
+      "never-prefix"
+    ],
+    "max-classes-per-file": false,
+    "member-access": [
+      true,
+      "no-public"
+    ],
+    "member-ordering": [
+      true,
+      {
+        "alphabetize": true,
+        "order": [
+          "static-field",
+          "static-method",
+          "instance-field",
+          "constructor",
+          "instance-method"
+        ]
+      }
+    ],
+    "newline-before-return": false,
+    "newline-per-chained-call": false,
+    "no-any": false,
+    "no-empty": false,
+    "no-implicit-dependencies": false,
+    "no-magic-numbers": false,
+    "no-null-keyword": false,
+    "no-parameter-properties": false,
+    "no-unbound-method": false,
+    "no-unsafe-any": {
+      "severity": "warning"
+    },
+    "only-arrow-functions": [
+      true,
+      "allow-declarations"
+    ],
+    "prefer-conditional-expression": false,
+    "prefer-function-over-method": false,
+    "quotemark": [
+      true,
+      "single"
+    ],
+    "strict-type-predicates": false,
+    "trailing-comma": false,
+    "triple-equals": [
+      true,
+      "allow-null-check"
+    ],
+    "typedef": false,
+    "variable-name": [
+      true,
+      "ban-keywords",
+      "check-format",
+      "allow-leading-underscore"
+    ]
+  }
+}

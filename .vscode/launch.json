@@ -1,0 +1,33 @@
+{
+  "configurations": [
+    {
+      "args": [
+        "node_modules/jasmine/bin/jasmine",
+        "${relativeFile}"
+      ],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "TypeScript with Jasmine",
+      "program": "${workspaceRoot}/node_modules/.bin/ts-node",
+      "protocol": "inspector",
+      "request": "launch",
+      "type": "node"
+    },
+    {
+      "args": [
+        "${relativeFile}"
+      ],
+      "cwd": "${workspaceRoot}",
+      "internalConsoleOptions": "openOnSessionStart",
+      "name": "TypeScript",
+      "protocol": "inspector",
+      "request": "launch",
+      "runtimeArgs": [
+        "-r",
+        "ts-node/register"
+      ],
+      "type": "node"
+    }
+  ],
+  "version": "0.2.0"
+}
