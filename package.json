@@ -2,7 +2,7 @@
   "name": "@typescript-plus/fast-memoize-decorator",
   "version": "0.2.0",
   "description": "A TypeScript decorator for memoizing properties using fast-memoize.",
-  "repository": "@typescript-plus/fast-memoize-decorator",
+  "repository": "typescript-plus/fast-memoize-decorator",
   "license": "MIT",
   "author": "mosop",
   "files": [
