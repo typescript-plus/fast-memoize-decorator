@@ -1,6 +1,6 @@
 {
   "name": "@typescript-plus/fast-memoize-decorator",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "A TypeScript decorator for memoizing properties using fast-memoize.",
   "repository": "@typescript-plus/fast-memoize-decorator",
   "license": "MIT",
@@ -15,23 +15,28 @@
     "dist:build": "tsc -p tsconfig.dist.json",
     "dist:clean": "rm -rf dist",
     "doc": "typedoc --mode file --excludeNotExported --out docs/api src",
-    "lint": "tslint -p . -t verbose",
+    "lint": "eslint \"{src,spec}/**/*.{ts,js}\"",
     "test": "ts-node node_modules/jasmine/bin/jasmine 'spec/**/*.spec.ts'",
     "posttest": "npm run lint"
   },
   "dependencies": {
-    "fast-memoize": "^2.3.2"
+    "fast-memoize": "^2.5.2"
   },
   "devDependencies": {
-    "@types/jasmine": "^2.8.7",
+    "@myowncake/config": "^0.2.1",
+    "@types/jasmine": "^3.9.1",
     "@types/node": "^8.10.17",
-    "@types/tmp": "0.0.33",
-    "@typescript-plus/stream-capture": "^0.1.0",
-    "jasmine": "^2.99.0",
-    "npm-run-all": "^4.1.3",
-    "ts-node": "^6.0.5",
-    "tslint": "^5.10.0",
-    "typedoc": "^0.11.1",
-    "typescript": "^2.8.3"
+    "@types/tmp": "0.2.1",
+    "@typescript-eslint/eslint-plugin": "^4.32.0",
+    "@typescript-eslint/parser": "^4.32.0",
+    "@typescript-plus/stream-capture-20211002": "^0.4.1",
+    "eslint": "^7.32.0",
+    "eslint-config-prettier": "^8.3.0",
+    "jasmine": "^3.9.0",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.4.1",
+    "ts-node": "^10.2.1",
+    "typedoc": "^0.22.5",
+    "typescript": "^4.4.3"
   }
 }

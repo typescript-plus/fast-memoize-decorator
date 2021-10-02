@@ -1,6 +1,0 @@
-{
-  "extends": [
-    "./config/tslint.json"
-  ],
-  "rules": {}
-}
